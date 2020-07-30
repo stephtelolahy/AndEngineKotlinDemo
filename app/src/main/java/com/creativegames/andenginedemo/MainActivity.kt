@@ -1,11 +1,28 @@
 package com.creativegames.andenginedemo
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import org.andengine.engine.options.EngineOptions
+import org.andengine.entity.scene.Scene
+import org.andengine.ui.IGameInterface
+import org.andengine.ui.activity.BaseGameActivity
 
-class MainActivity : AppCompatActivity() {
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_main)
-  }
+class MainActivity : BaseGameActivity() {
+
+    override fun onCreateResources(pOnCreateResourcesCallback: IGameInterface.OnCreateResourcesCallback?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onCreateScene(pOnCreateSceneCallback: IGameInterface.OnCreateSceneCallback?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onCreateEngineOptions(): EngineOptions {
+        TODO("Not yet implemented")
+    }
+
+    override fun onPopulateScene(
+        pScene: Scene?,
+        pOnPopulateSceneCallback: IGameInterface.OnPopulateSceneCallback?
+    ) {
+        TODO("Not yet implemented")
+    }
 }
