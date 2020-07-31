@@ -8,5 +8,3 @@ The original AndEngine project was created by Nicholas Gramlich and can be found
 ## What it contains
 - A starter game project build with Kotlin
 
-I hope this could help you out there ;)
-
